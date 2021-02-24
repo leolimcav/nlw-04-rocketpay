@@ -1,7 +1,7 @@
-defmodule Rockepay.NumbersTest do
+defmodule Rocketpay.NumbersTest do
   use ExUnit.Case
 
-  alias Rockepay.Numbers
+  alias Rocketpay.Numbers
 
   describe "sum_from_file/1" do
     test "when there is a file with the given name, returns the sum of numbers" do

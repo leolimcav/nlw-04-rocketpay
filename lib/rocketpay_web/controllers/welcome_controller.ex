@@ -1,7 +1,7 @@
 defmodule RocketpayWeb.WelcomeController do
   use RocketpayWeb, :controller
 
-  alias Rockepay.Numbers
+  alias Rocketpay.Numbers
 
   def index(conn, %{"filename" => filename}) do
     filename
